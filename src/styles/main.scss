@@ -1,6 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import "styles";
+@import "variables";
 
 body {
-  background-color: rebeccapurple;
+  background-color: $gold;
+  @include default-font(40px);
 }
